@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+}
+.login{
+    border: 2px solid black;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 90px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color:transparent;
+    border-radius: 20px;
+
+}
+
+.password{
+    border: 2px solid black;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    width: max-content;
+     }
+#password{
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+.Username{
+    border: 2px solid black;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    width: max-content;
+}
+#Username{
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+#forgot{
+    position: relative;
+    top: 90px;
+    left:70px;
+    text-decoration: none;
+    transition: transform 1s;
+}
+#forgot:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+#login-button{
+    position: relative;
+    top: 140px;
+    right: 60px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: transform 1s;
+} 
+
+ #login-button:hover{
+    background-color: white; */
+
+} 
+#login{
+    position: absolute;
+    left: 710px;
+    text-align: center;
+    top: 90px;
+    color: blanchedalmond;
+}
+body{
+    background-image: url(event.jpg);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
